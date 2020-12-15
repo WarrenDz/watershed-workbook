@@ -6,6 +6,11 @@ The data collected for this exercise was downloaded from the [Grand River Conser
 ## Requirements
 To activate the ArcGIS Insights scripting environment, dig into this [annoucement](https://www.esri.com/arcgis-blog/products/insights/announcements/scripting-insights-arcgis/) and the associated [repo](https://github.com/Esri/insights-scripting-guide).
 
+# Data Preparation
+Contents of this folder pertain to the collection and preparation of the data required to conduct the analysis and author our workbook. The blog post walkthrough can be read [here](https://www.esri.com/arcgis-blog/products/insights/analytics/make-this-watershed-workbook-data-prep/).
+
+The Jupyter Notebook that performs the data collation and prep is described below.
+
 ## Script Functions
 1. The script processes a collection of River Flow `.csv` datasets downloaded to a local folder directory.
 2. Transposes some of the metadata attributes from the file header into new columns.
@@ -13,6 +18,3 @@ To activate the ArcGIS Insights scripting environment, dig into this [annoucemen
 4. Sets the column datatypes.
 5. Sorts the dataframe.
 6. Outputs the dataframe to the Insights datapane.
-
-## Further Reading
-Read the full blog post and walkthrough.
